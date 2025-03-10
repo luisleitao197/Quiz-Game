@@ -1,0 +1,114 @@
+/* General background for the entire page */
+#background {
+    width: 100vw;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Layout for the initial screen (start screen) */
+#layoutinicial {
+    background-color: #02f302;
+    font-size: 47px;
+    color: rgb(204, 0, 255);
+    width: 400px;
+    height: 400px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+/* Button in the initial layout */
+#butao {
+    border: 2px solid black;
+    width: 100px;
+}
+
+/* Answer options styling */
+#op1, #op2, #op3, #op4 {
+    border: 2px solid rgba(0, 0, 0, 0.164);
+    height: 35px;
+    width: 400px;
+    margin: 5px 0; /* Adds space between options */
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Styling for the quiz game container */
+#quizgame {
+    text-align: center;
+}
+
+/* Layout for questions and answers (quiz layout) */
+#layoutperguntas {
+    background-color: #02f302;
+    font-size: 21px;
+    color: rgb(204, 0, 255);
+    width: 400px;
+    height: 430px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    display: none; /* Hidden initially */
+}
+
+/* Styling for the question */
+#pergunta {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Button when hovered */
+button:hover {
+    background-color: #f0f0f0;
+}
+
+/* When the user selects an answer */
+button.correct {
+    background-color: #90EE90;  /* Green for correct answers */
+}
+
+button.incorrect {
+    background-color: #EE204D;  /* Red for incorrect answers */
+}
+
+/* Layout for score display */
+#scoreLayout {
+    display: none;  /* Hidden initially */
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+#scoreLayout h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#scoreLayout p {
+    font-size: 20px;
+}
+#scoreLayout {
+        display: flex;  /* Hidden initially */
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    #scoreLayout h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    #scoreLayout p {
+        font-size: 20px;
+        font-weight: normal;
+    }

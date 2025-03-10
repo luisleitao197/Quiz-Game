@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.CSS"/>
+</head>
+<body>
+    <div id="background">
+
+        <div id="layoutinicial">
+            <h1 id="quizgame">Quiz Game</h1>
+
+            <button id="butao"onclick = "iniciarjogo()">Começar o Jogo</button>
+        </div>
+        <div id="layoutperguntas">
+            <h1 id="pergunta">Pergunta!</h1>
+            <button id="op1">A</button>
+            <br>
+            <br>
+            <button id="op2">B</button>
+            <br>
+            <br>
+            <button id="op3">C</button>
+            <br>
+            <br>
+            <button id="op4">D</button>
+            <br>
+            <br>
+            <button id="butao" onclick="inserirPergunta()">Seguinte</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+    <div id="scoreLayout" style="display: none;">
+        <h2>Game Over</h2>
+        <p id="score"></p>
+    </div>
+    
+</body>
+</html>
